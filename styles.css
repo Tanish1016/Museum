@@ -11,7 +11,7 @@ body {
     color: #fff;
 }
 
-/* Navigation */
+ 
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Main Content */
+ 
 .main-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -98,7 +98,7 @@ body {
     gap: 20px;
 }
 
-/* Cards */
+ 
 .card {
     border-radius: 20px;
     padding: 30px;
@@ -114,7 +114,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Birmingham Card */
+ 
 .birmingham-card {
     background: rgba(220, 200, 170, 0.15);
     border-color: rgba(220, 200, 170, 0.3);
@@ -124,7 +124,7 @@ body {
     background: rgba(220, 200, 170, 0.25);
 }
 
-/* Bread Card */
+ 
 .bread-card {
     background: rgba(200, 180, 150, 0.15);
     border-color: rgba(200, 180, 150, 0.25);
@@ -134,7 +134,7 @@ body {
     background: rgba(200, 180, 150, 0.25);
 }
 
-/* Portrait Card */
+ 
 .portrait-card {
     background: rgba(180, 140, 100, 0.2);
     border-color: rgba(180, 140, 100, 0.3);
@@ -144,7 +144,7 @@ body {
     background: rgba(180, 140, 100, 0.3);
 }
 
-/* Vintage Card */
+ 
 .vintage-card {
     background: rgba(200, 180, 150, 0.15);
     border-color: rgba(200, 180, 150, 0.25);
@@ -212,7 +212,7 @@ body {
     font-weight: 400;
 }
 
-/* Portrait Specific Styles */
+ 
 .portrait-title {
     font-size: 24px;
     margin-bottom: 10px;
@@ -235,7 +235,7 @@ body {
     font-size: 11px;
 }
 
-/* Vintage Card Specific Styles */
+ 
 .vintage-header {
     display: flex;
     justify-content: space-between;
@@ -281,7 +281,7 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Buttons */
+ 
 .get-started-btn {
     display: inline-flex;
     align-items: center;
@@ -310,7 +310,7 @@ body {
     transform: scale(0.98);
 }
 
-/* Button Variants */
+ 
 .birmingham-btn:hover {
     background: rgba(220, 200, 170, 0.4);
     border-color: rgba(220, 200, 170, 0.6);
@@ -337,7 +337,7 @@ body {
     transform: rotate(45deg) translateX(3px);
 }
 
-/* Responsive Design */
+ 
 @media (max-width: 1024px) {
     .main-container {
         grid-template-columns: 1fr;
